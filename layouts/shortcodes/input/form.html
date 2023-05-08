@@ -1,0 +1,6 @@
+{{ partial "stylesheet" (dict "name" "css/input.css") }}
+<form method="post" action="https://mautic.varigergo.hu/form/submit?formId={{ .Get 0 }}">
+	{{ .Inner }}
+	<input type="hidden" name="mauticform[formId]" value="{{ .Get 0 }}">
+	<input type="hidden" name="mauticform[return]" value="{{ .Site.BaseURL }}/questionnaires-error">
+</form>
