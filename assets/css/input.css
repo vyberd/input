@@ -55,6 +55,21 @@ input[type=radio],input[type=checkbox] {
 	left: -5000px;
 }
 
+.color input, .color button, .color textarea {
+       background-color: var(--color0-bg);
+       color: var(--color0-text);
+       border: 2px solid;
+}
+.color input::placeholder, .color button::placeholder, .color textarea::placeholder {
+       color: var(--color0-text);
+       opacity: .5;
+}
+.color input[type=radio], .color input[type=checkbox] {
+       accent-color: var(--color0-accent);
+}
+.color input[type=radio]:hover, .color input[type=checkbox]:hover {
+	accent-color: var(--color0-accent1);
+}
 .color0 input, .color0 button, .color0 textarea {
 	background-color: var(--color0-accent);
 	color: var(--color0-text);
