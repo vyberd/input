@@ -5,10 +5,13 @@ label.expand {
 	width: 100%;
 }
 
-.button.is-primary {
+input[type=button], button, .button {
 	font-family: 'Rajdhani', sans-serif !important;
 	font-size: calc(1rem + .5vw);
 	font-weight: bold;
+	height: 5rem;
+	width: 100%;
+	margin-top: calc(2rem + 1vw);
 }
 
 input[type=text],input[type=email],textarea,textarea.input {
