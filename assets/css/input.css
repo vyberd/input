@@ -9,9 +9,7 @@ input[type=button], button, .button {
 	font-family: 'Rajdhani', sans-serif !important;
 	font-size: calc(1rem + .5vw);
 	font-weight: bold;
-	height: 5rem;
 	width: 100%;
-	margin-top: calc(2rem + 1vw);
 }
 
 input[type=text],input[type=email],textarea,textarea.input {
@@ -74,8 +72,8 @@ input[type=radio],input[type=checkbox] {
 	accent-color: var(--color0-accent1);
 }
 .color0 input, .color0 button, .color0 textarea {
-	background-color: var(--color0-accent);
-	color: var(--color0-text);
+	background-color: var(--color1-bg);
+	color: var(--color1-text);
 	border: 2px solid;
 }
 .color0 input::placeholder, .color0 button::placeholder, .color0 textarea::placeholder {
@@ -102,4 +100,8 @@ input[type=radio],input[type=checkbox] {
 }
 .color1 input[type=radio]:hover, .color1 input[type=checkbox]:hover {
 	accent-color: var(--color0-bg);
+}
+
+.is-primary {
+	min-height: 5rem;
 }

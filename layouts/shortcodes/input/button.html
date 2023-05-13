@@ -1,4 +1,4 @@
 {{ partial "stylesheet" (dict "name" "css/input.css") }}
 <label>
-	<button type="submit">{{ .Inner }}</button>
+	<button type="submit" class="{{ .Get "class" }}">{{ .Inner }}</button>
 </label>
