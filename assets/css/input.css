@@ -76,8 +76,8 @@ input[type=radio],input[type=checkbox] {
 	color: var(--color1-text);
 	border: 2px solid;
 }
-.color0 input::placeholder, .color0 button::placeholder, .color0 textarea::placeholder {
-	color: var(--color0-text);
+.color0 input::placeholder, .color0 textarea::placeholder {
+	color: var(--color1-text);
 	opacity: .5;
 }
 .color0 input[type=radio], .color0 input[type=checkbox] {
